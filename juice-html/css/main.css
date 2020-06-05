@@ -109,12 +109,16 @@ body {
     background-color: #fadb60;
     background-image: linear-gradient(to top, #ffcc00 0%, #fadb60 100%);
 
-
     color: #000000;
     font-size: 24px;
     font-weight: 700;
     text-decoration: none;
     line-height: 65px;
+}
+
+.header__btn:hover {
+    background-image: linear-gradient(to top, #ffcc00 0%, #ff9100 100%);
+    color: #000000;
 }
 
 .header-photo {
